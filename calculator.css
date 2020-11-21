@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+}
+.cal-button{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 #000000;
+    transition: 0.5px;
+    font-size: 0;
+}
+.cal-button:hover{
+    box-shadow: 0 16px 32px 0 #000000;
+}
+.cal-head #result{
+    width: 307px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px;
+}
+.btn{
+    width: 80px;
+    height: 70px;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: cornflowerblue;
+    color: #ffffff;  
+    margin: 0;
+    padding: 0;
+}
+.btn-style{
+    background-color: #000000;
+}
+.btn:hover{
+    background-color: darkorange;
+}
